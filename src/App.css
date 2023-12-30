@@ -1,7 +1,7 @@
 .main-div{
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.2);
+    background: #F4DFB6;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -39,7 +39,7 @@
     border-radius: 20px;
     margin-left: 20px;
     padding-left: 10px;
-    background-color: #5C8374;
+    background-color: #9A4444;
     color: black;
 }
 
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
- 
+    color: black;
 }
 
 .list-div{
@@ -69,5 +69,10 @@
 .remove-btn{
     margin-left: 300px;
     position: fixed;
+   
+}
+.checkbox-btn:checked{
+   color: white;
+
 }
 
